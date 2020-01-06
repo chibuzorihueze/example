@@ -5,13 +5,22 @@ body, html {
 
 body {
     font: 400 16px 'Karla', Arial;
+    color: #666;
     letter-spacing: 0;
     line-height: 32px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font: 300 64px/72px Montserrat, Arial;
+    font: 300 64px/72px 'Prata', Montserrat, Arial;
     letter-spacing: -3px;
+}
+
+/* CAPTIONS  */
+
+.sub-caption {
+    color: #123;
+    font: 48px 'Gelasio', Arial;
+    letter-spacing: 0;
 }
 
 /* STRUCTURE & LAYOUT */
@@ -25,4 +34,22 @@ h1, h2, h3, h4, h5, h6 {
     display: table-cell;
     width: 100%; height: 100%;
     vertical-align: middle;
+}
+
+/* SECTION STYLING */
+
+.section-xs {
+    padding: 1.5em 0;
+}
+
+.section-sm {
+    padding: 3.0em 0;
+}
+
+.section-md {
+    padding: 4.5em 0;
+}
+
+.section-lg {
+    padding: 6.0em 0;
 }
